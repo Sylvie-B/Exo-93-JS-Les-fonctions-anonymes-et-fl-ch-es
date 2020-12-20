@@ -11,3 +11,28 @@ html {
 body {
     width: 100%;
 }
+
+#alert, #somme {
+    width: 10em;
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+#alert:hover {
+    color: red;
+}
+
+#somme:hover {
+    background-color: green;
+}
+
+#alert:active {
+    color: black;
+    font-weight: bold;
+    background-color: red;
+}
+
+#somme:active {
+    color: blue;
+    font-weight: bold;
+}
